@@ -1,4 +1,3 @@
-eb create --single --keyname vockey --instance-types t2.micro
-eb list
+eb init  --platform node.js --region us-east-1 --keyname vockey
 eb use Htfa-api-env
 eb deploy
