@@ -1,3 +1,3 @@
-eb init htfa-api --platform node.js --region us-east-1
-eb use htfa-api-env
+eb init htfa-api-env --platform node.js --region us-east-1
+eb use Htfa-api-env-2
 eb deploy
